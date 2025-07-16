@@ -1,8 +1,19 @@
 {
 	"name": "@deebeetech/deebee-dms",
-	"private": true,
+	"private": false,
 	"version": "1.0.0",
+	"description": "Complex configurable data editor for Supabase",
+	"homepage": "https://github.com/deebee-tech/deebee-dms",
+	"license": "MIT",
 	"type": "module",
+	"author": {
+		"name": "Sandy Weatherby",
+		"email": "unicornbeachdiaries@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/deebee-tech/deebee-dms"
+	},
 	"scripts": {
 		"build": "vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
