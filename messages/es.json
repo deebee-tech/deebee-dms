@@ -1,0 +1,105 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "auth": {
+    "errors": {
+      "email_confirmation_send_error": "Error al enviar el correo electrónico de confirmación",
+      "email_confirmation_sent": "Confirmación de correo electrónico enviada correctamente",
+      "phone_confirmation_send_error": "Error al enviar la confirmación del teléfono",
+      "phone_confirmation_sent": "Confirmación telefónica enviada exitosamente",
+      "email_in_use": "El correo electrónico ya está siendo utilizado por otro usuario",
+      "email_not_found": "Usuario con este e-mail no encontrado",
+      "email_wrong_provider": "Encontramos un usuario con este correo electrónico, pero se está utilizando con el inicio de sesión social.",
+      "invalid_passcode": "Código de acceso proporcionado no válido",
+      "phone_in_use": "El número de teléfono ya está siendo utilizado por otro usuario",
+      "phone_not_found": "No se encontró el usuario con este número de teléfono",
+      "phone_wrong_provider": "Encontramos un usuario con este número de teléfono, pero se está utilizando con el inicio de sesión social.",
+      "reset_link_failed": "No se pudo enviar el enlace de restablecimiento. Inténtalo de nuevo más tarde.",
+      "unknown_auth_error": "Ocurrió un error desconocido al iniciar sesión. Inténtalo nuevamente.",
+      "user_not_found": "Usuario no encontrado"
+    },
+    "field_names": {
+      "confirm_password": "confirmar Contraseña",
+      "email": "Correo electrónico",
+      "passcode": "Código de acceso",
+      "password": "Contraseña",
+      "phone": "Teléfono"
+    },
+    "page_titles": {
+      "forgot_password": "Has olvidado tu contraseña",
+      "one_time_passcode": "Código de acceso de un solo uso",
+      "user_confirmation": "Confirmación de usuario"
+    },
+    "phrases": {
+      "back_to": "Volver a",
+      "confirmation_status": "Estado de confirmación",
+      "dont_have_an_account": "¿No tienes una cuenta?",
+      "email": "Correo electrónico",
+      "email_and_password": "Correo electrónico y contraseña",
+      "email_and_phone_with_password": "Correo electrónico y teléfono con contraseña",
+      "forgot_password": "¿Has olvidado tu contraseña?",
+      "forgot_password_instructions_email": "Introduce tu correo electrónico y haz clic en el botón \"Enviar enlace mágico\". Recibirás un enlace de inicio de sesión automático. Una vez iniciada la sesión, podrás acceder a tu perfil para cambiar tu contraseña.",
+      "forgot_password_instructions_phone": "Introduce tu número de teléfono y haz clic en el botón \"Enviar OTP\". Recibirás una contraseña en tu teléfono. Una vez iniciada la sesión, podrás acceder a tu perfil para cambiarla.",
+      "go_to": "Ir a",
+      "login_with": "Iniciar sesión con",
+      "magic_link_sent_email": "El enlace mágico ha sido enviado a tu correo electrónico.",
+      "magic_link_via_email": "Enlace mágico por correo electrónico",
+      "one_time_passcode_sent_phone": "Se ha enviado un código de acceso de un solo uso a su número de teléfono",
+      "one_time_passcode_via_phone": "Código de acceso de un solo uso por teléfono",
+      "phone": "Teléfono",
+      "provider": "Proveedor",
+      "send_magic_link": "Enviar enlace mágico",
+      "send_one_time_passcode": "Enviar código de acceso de un solo uso",
+      "send_otp": "Enviar OTP",
+      "sign_in": "Iniciar sesión",
+      "sign_up": "Inscribirse",
+      "sign_up_with": "Regístrate con",
+      "social_login": "Inicio de sesión social",
+      "user_confirmation_instructions": "Necesitará confirmar todos los proveedores de comunicación anteriores antes de poder iniciar sesión.",
+      "verify_passcode": "Verificar código de acceso"
+    }
+  },
+  "country_names": {
+    "gb": "Gran Bretaña",
+    "us": "Estados Unidos"
+  },
+  "general": {
+    "errors": {
+      "boolean_string": "El valor debe ser una cadena que sea 'verdadero' o 'falso'",
+      "confirm_password_match": "Las contraseñas no coinciden",
+      "confirm_password_required": "Se requiere confirmación de contraseña",
+      "email_invalid": "El formato del correo electrónico no es válido",
+      "email_required": "Se requiere correo electrónico",
+      "password_complexity": "La contraseña debe tener al menos 16 caracteres y contener una letra minúscula, una letra mayúscula, un carácter especial y un número.",
+      "password_required": "Se requiere contraseña",
+      "phone_invalid": "El formato del número de teléfono no es válido",
+      "phone_required": "Se requiere el número de teléfono",
+      "string_required": "Falta o no puede estar vacío",
+      "supabase_error": "Error arrojado por el cliente de Supabase",
+      "url_invalid": "Formato de URL no válido"
+    },
+    "phrases": {
+      "default_themes": "Temas predeterminados",
+      "select_country": "Seleccionar país",
+      "select_locale": "Seleccionar configuración regional",
+      "select_theme": "Seleccionar tema"
+    }
+  },
+  "system": {
+    "errors": {
+      "auth_provider_entries": "El proveedor de autenticación contiene entradas no válidas",
+      "supabase_connect": "La conexión a Supabase falló o el esquema no es válido"
+    },
+    "page_titles": {
+      "system_status": "Estado del sistema"
+    },
+    "phrases": {
+      "database_connections": "Conexiones de base de datos",
+      "dms_database": "Base de datos DMS",
+      "general_environment_variables": "Variables generales del entorno",
+      "name": "Nombre",
+      "not_configured": "No configurado",
+      "sentry_configuration": "Configuración de Sentry",
+      "status": "Estado"
+    }
+  }
+}

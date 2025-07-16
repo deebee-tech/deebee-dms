@@ -1,0 +1,15 @@
+{
+	"recommendations": [
+		"bradlc.vscode-tailwindcss",
+		"dbaeumer.vscode-eslint",
+		"denoland.vscode-deno",
+		"esbenp.prettier-vscode",
+		"gruntfuggly.todo-tree",
+		"irongeek.vscode-env",
+		"mtxr.sqltools-driver-pg",
+		"mtxr.sqltools",
+		"ms-ossdata.vscode-pgsql",
+		"svelte.svelte-vscode",
+		"tamasfe.even-better-toml"
+	]
+}

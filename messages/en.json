@@ -1,0 +1,105 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"auth": {
+		"errors": {
+			"email_confirmation_send_error": "Error sending E-Mail confirmation",
+			"email_confirmation_sent": "E-Mail confirmation sent successfully",
+			"phone_confirmation_send_error": "Error sending Phone confirmation",
+			"phone_confirmation_sent": "Phone confirmation sent successfully",
+			"email_in_use": "E-Mail is already in use by another user",
+			"email_not_found": "User with this e-mail not found",
+			"email_wrong_provider": "We found a user with this e-mail, but it is being used with the social login(s)",
+			"invalid_passcode": "Invalid passcode provided",
+			"phone_in_use": "Phone number is already in use by another user",
+			"phone_not_found": "User with this phone number was not found",
+			"phone_wrong_provider": "We found a user with this phone number, but it is being used with the social login(s)",
+			"reset_link_failed": "Failed to send reset link. Please try again later.",
+			"unknown_auth_error": "An unknown error happened with logging in.  Please try again.",
+			"user_not_found": "User not found"
+		},
+		"field_names": {
+			"confirm_password": "Confirm Password",
+			"email": "E-Mail",
+			"passcode": "Passcode",
+			"password": "Password",
+			"phone": "Phone"
+		},
+		"page_titles": {
+			"forgot_password": "Forgot Password",
+			"one_time_passcode": "One-Time Passcode",
+			"user_confirmation": "User Confirmation"
+		},
+		"phrases": {
+			"back_to": "Back to",
+			"confirmation_status": "Confirmation Status",
+			"dont_have_an_account": "Don't have an account?",
+			"email": "E-Mail",
+			"email_and_password": "E-Mail and Password",
+			"email_and_phone_with_password": "E-mail and Phone with Password",
+			"forgot_password": "Forgot Password?",
+			"forgot_password_instructions_email": "Fill in your e-mail and click the 'Send Magic Link' button. You will receive an auto-login link. Once you are logged in you can go to your profile to change your password.",
+			"forgot_password_instructions_phone": "Fill in your phone number and click the 'Send OTP' button. You will receive an passcode via your phone. Once you are logged in you can go to your profile to change your password.",
+			"go_to": "Go to",
+			"login_with": "Login with",
+			"magic_link_sent_email": "Magic link has been sent to your e-mail",
+			"magic_link_via_email": "Magic Link Via E-mail",
+			"one_time_passcode_sent_phone": "One-time passcode has been sent to your phone number",
+			"one_time_passcode_via_phone": "One-Time Passcode Via Phone",
+			"phone": "Phone",
+			"provider": "Provider",
+			"send_magic_link": "Send Magic Link",
+			"send_one_time_passcode": "Send One-Time Passcode",
+			"send_otp": "Send OTP",
+			"sign_in": "Sign In",
+			"sign_up": "Sign Up",
+			"sign_up_with": "Sign Up with",
+			"social_login": "Social Login",
+			"user_confirmation_instructions": "You will need to confirm all communication providers above before you are allowed to log in.",
+			"verify_passcode": "Verify Passcode"
+		}
+	},
+	"country_names": {
+		"gb": "Great Britain",
+		"us": "United States"
+	},
+	"general": {
+		"errors": {
+			"boolean_string": "Value must be a string that is either 'true' or 'false'",
+			"confirm_password_match": "Passwords do not match",
+			"confirm_password_required": "Password confirmation is required",
+			"email_invalid": "E-Mail format is invalid",
+			"email_required": "E-Mail is required",
+			"password_complexity": "Password must be at least 16 characters and contain one lowercase letter, one uppercase letter, one special character, and one number",
+			"password_required": "Password is required",
+			"phone_invalid": "Phone number format is invalid",
+			"phone_required": "Phone number is required",
+			"string_required": "Missing or cannot be empty",
+			"supabase_error": "Error thrown from Supabase client",
+			"url_invalid": "Invalid URL format"
+		},
+		"phrases": {
+			"default_themes": "Default Themes",
+			"select_country": "Select Country",
+			"select_locale": "Select Locale",
+			"select_theme": "Select Theme"
+		}
+	},
+	"system": {
+		"errors": {
+			"auth_provider_entries": "Auth provider contains invalid entries",
+			"supabase_connect": "Connection to Supabase failed or schema is not valid"
+		},
+		"page_titles": {
+			"system_status": "System Status"
+		},
+		"phrases": {
+			"database_connections": "Database Connections",
+			"dms_database": "DMS Database",
+			"general_environment_variables": "General Environment Variables",
+			"name": "Name",
+			"not_configured": "Not Configured",
+			"sentry_configuration": "Sentry Configuration",
+			"status": "Status"
+		}
+	}
+}

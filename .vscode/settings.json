@@ -1,0 +1,105 @@
+{
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "denoland.vscode-deno"
+	},
+	"cSpell.diagnosticLevel": "Error",
+	"cSpell.ignorePaths": [
+		".{svelte-kit,vscode,vscode-insiders,git}",
+		"*.{json,yml,yaml,txt,d.ts,gitignore,prettierignore,npmrc,lock,css,toml}",
+		"*.config.{js,mjs,cjs,ts,mts,cts}",
+		"*.config.*.{js,mjs,cjs,ts,mts,cts}",
+		".env*",
+		"node_modules",
+		"build",
+		"dist",
+		"out",
+		"vscode-extension",
+		"*.dockerfile",
+		"Dockerfile",
+		".Dockerignore"
+	],
+	"cSpell.words": [
+		"alpinejs",
+		"daisyui",
+		"deebee",
+		"dont",
+		"formsnap",
+		"inlang",
+		"kakao",
+		"magiclink",
+		"maska",
+		"nonoptional",
+		"paraglide",
+		"picklist",
+		"plpgsql",
+		"popovertarget",
+		"Supabase",
+		"superform",
+		"superforms",
+		"twclsx",
+		"uuidv",
+		"valibot",
+		"workos"
+	],
+	"css.lint.unknownAtRules": "ignore",
+	"deno.enablePaths": ["supabase/functions"],
+	"deno.lint": true,
+	"deno.unstable": [
+		"bare-node-builtins",
+		"byonm",
+		"sloppy-imports",
+		"unsafe-proto",
+		"webgpu",
+		"broadcast-channel",
+		"worker-options",
+		"cron",
+		"kv",
+		"ffi",
+		"fs",
+		"http",
+		"net"
+	],
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "always"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.tabSize": 3,
+	"eslint.validate": ["javascript", "typescript", "svelte"],
+	"explorer.compactFolders": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		".env": ".env.*",
+		".prettierrc": ".prettier*",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+		"tsconfig.json": "tsconfig.*.json"
+	},
+	"explorer.sortOrder": "filesFirst",
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"github.copilot.chat.codeGeneration.instructions": [
+		{
+			"file": "./.vscode/daisyui.md"
+		}
+	],
+	"mcp": {
+		"servers": {
+			"Context7": {
+				"type": "stdio",
+				"command": "npx",
+				"args": ["-y", "@upstash/context7-mcp@latest"]
+			}
+		}
+	},
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.svelte.format.enable": true,
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.tsserver.experimental.enableProjectDiagnostics": true,
+	"workbench.editor.labelFormat": "medium",
+	"workbench.tree.indent": 16
+}

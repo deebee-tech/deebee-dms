@@ -1,0 +1,105 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "auth": {
+    "errors": {
+      "email_confirmation_send_error": "发送电子邮件确认时出错",
+      "email_confirmation_sent": "电子邮件确认已成功发送",
+      "phone_confirmation_send_error": "发送电话确认信息时出错",
+      "phone_confirmation_sent": "电话确认已成功发送",
+      "email_in_use": "电子邮件已被其他用户使用",
+      "email_not_found": "未找到拥有此电子邮件的用户",
+      "email_wrong_provider": "我们找到了一个拥有此电子邮件的用户，但它正用于社交登录",
+      "invalid_passcode": "提供的密码无效",
+      "phone_in_use": "电话号码已被其他用户使用",
+      "phone_not_found": "未找到此电话号码的用户",
+      "phone_wrong_provider": "我们找到了一个拥有此电话号码的用户，但该号码正用于社交登录",
+      "reset_link_failed": "重置链接发送失败。请稍后重试。",
+      "unknown_auth_error": "登录时发生未知错误。请重试。",
+      "user_not_found": "未找到用户"
+    },
+    "field_names": {
+      "confirm_password": "确认密码",
+      "email": "电子邮件",
+      "passcode": "密码",
+      "password": "密码",
+      "phone": "电话"
+    },
+    "page_titles": {
+      "forgot_password": "忘记密码",
+      "one_time_passcode": "一次性密码",
+      "user_confirmation": "用户确认"
+    },
+    "phrases": {
+      "back_to": "返回",
+      "confirmation_status": "确认状态",
+      "dont_have_an_account": "沒有帳戶？",
+      "email": "电子邮件",
+      "email_and_password": "电子邮件和密码",
+      "email_and_phone_with_password": "带有密码的电子邮件和电话",
+      "forgot_password": "忘记密码？",
+      "forgot_password_instructions_email": "填写您的电子邮箱，然后点击“发送魔法链接”按钮。您将收到一个自动登录链接。登录后，您可以前往您的个人资料页面更改密码。",
+      "forgot_password_instructions_phone": "输入您的电话号码，然后点击“发送一次性密码”按钮。您将通过手机收到密码。登录后，您可以前往您的个人资料页面更改密码。",
+      "go_to": "前往",
+      "login_with": "使用以下方式登录",
+      "magic_link_sent_email": "魔法链接已发送至您的邮箱",
+      "magic_link_via_email": "通过电子邮件的魔术链接",
+      "one_time_passcode_sent_phone": "一次性密码已发送至您的电话号码",
+      "one_time_passcode_via_phone": "通过电话输入一次性密码",
+      "phone": "电话",
+      "provider": "提供者",
+      "send_magic_link": "发送魔术链接",
+      "send_one_time_passcode": "发送一次性密码",
+      "send_otp": "发送 OTP",
+      "sign_in": "登入",
+      "sign_up": "报名",
+      "sign_up_with": "注册",
+      "social_login": "社交登录",
+      "user_confirmation_instructions": "您需要确认上述所有通信提供商才可以登录。",
+      "verify_passcode": "验证密码"
+    }
+  },
+  "country_names": {
+    "gb": "英国",
+    "us": "美国"
+  },
+  "general": {
+    "errors": {
+      "boolean_string": "值必须是“true”或“false”的字符串",
+      "confirm_password_match": "密码不匹配",
+      "confirm_password_required": "需要密码确认",
+      "email_invalid": "电子邮件格式无效",
+      "email_required": "需要电子邮件",
+      "password_complexity": "密码必须至少包含 16 个字符，且包含一个小写字母、一个大写字母、一个特殊字符和一个数字",
+      "password_required": "需要密码",
+      "phone_invalid": "电话号码格式无效",
+      "phone_required": "需要电话号码",
+      "string_required": "缺失或不能为空",
+      "supabase_error": "Supabase 客户端抛出错误",
+      "url_invalid": "URL 格式无效"
+    },
+    "phrases": {
+      "default_themes": "默认主题",
+      "select_country": "选择国家",
+      "select_locale": "选择区域设置",
+      "select_theme": "选择主题"
+    }
+  },
+  "system": {
+    "errors": {
+      "auth_provider_entries": "身份验证提供程序包含无效条目",
+      "supabase_connect": "与 Supabase 的连接失败或架构无效"
+    },
+    "page_titles": {
+      "system_status": "系统状态"
+    },
+    "phrases": {
+      "database_connections": "数据库连接",
+      "dms_database": "DMS 数据库",
+      "general_environment_variables": "常规环境变量",
+      "name": "姓名",
+      "not_configured": "未配置",
+      "sentry_configuration": "哨兵配置",
+      "status": "地位"
+    }
+  }
+}

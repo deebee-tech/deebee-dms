@@ -1,0 +1,1 @@
+INSERT INTO deebee_dms.dual (dummy) VALUES ('X');

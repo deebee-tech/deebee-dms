@@ -1,0 +1,35 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "App => Browser",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:5173",
+			"webRoot": "${workspaceFolder}",
+			"sourceMaps": true
+		},
+		{
+			"name": "App => Server",
+			"command": "pnpm run dev",
+			"request": "launch",
+			"type": "node-terminal"
+		},
+		{
+			"name": "Docs",
+			"command": "pnpm run docs:dev",
+			"request": "launch",
+			"type": "node-terminal"
+		}
+	],
+	"compounds": [
+		{
+			"name": " App => Full-Stack",
+			"configurations": ["App => Server", "App => Browser"]
+		},
+		{
+			"name": " App => Full-Stack with Docs",
+			"configurations": ["App => Server", "App => Browser", "Docs"]
+		}
+	]
+}
